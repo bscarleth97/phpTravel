@@ -1,0 +1,41 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Brenda Scarleth\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js --dev add babel-core babel-present-env chimp
+
+PATH: 
+  C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\cygwin\bin;C:\cygwin\bin\g++.exe;C:\cygwin\bin\gcc.exe;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\OpenCV2.1\bin;C:\Program Files\Java\jre1.8.0_40\bin;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files\Java\jre1.8.0_77\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Git\cmd;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\xampp\mysql\bin;C:\PostgreSQL\pg10\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Ruby24-x64\bin;C:\Ruby24-x64\bin;C:\Users\Brenda Scarleth\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\Brenda Scarleth\AppData\Local\Programs\Python\Python36-32\;C:\OpenCV2.1\bin;"C:\Program Files\Java\jdk1.8.0_77\bin";C:\Users\Brenda Scarleth\AppData\Local\Microsoft\WindowsApps;C:\Program Files\heroku\bin;C:\Users\Brenda Scarleth\AppData\Roaming\Composer\vendor\bin;C:\Users\Brenda Scarleth\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Brenda Scarleth\AppData\Roaming\npm
+
+Yarn version: 
+  1.10.1
+
+Node version: 
+  8.12.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/babel-present-env: Not found
+      at Request.params.callback [as _callback] (C:\Users\Brenda Scarleth\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:61073:18)
+      at Request.self.callback (C:\Users\Brenda Scarleth\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:120166:22)
+      at emitTwo (events.js:126:13)
+      at Request.emit (events.js:214:7)
+      at Request.<anonymous> (C:\Users\Brenda Scarleth\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:121138:10)
+      at emitOne (events.js:116:13)
+      at Request.emit (events.js:211:7)
+      at IncomingMessage.<anonymous> (C:\Users\Brenda Scarleth\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:121060:12)
+      at Object.onceWrapper (events.js:313:30)
+      at emitNone (events.js:111:20)
+
+npm manifest: 
+  {
+    "name": "nuevoProyecto",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
